@@ -1,11 +1,10 @@
-// Get the elements
 const normalNav = document.querySelector('.flex');
 const mobileNav = document.querySelector('.grid.hidden');
 const menuIcon = document.querySelector('.fa-bars');
 const closeIcon = document.querySelector('.fa-x');
 const iconsContainer = document.querySelector('.col-span-2.flex');
 
-// Add click event for menu icon to open mobile nav
+// // Add click event for menu icon to open mobile nav
 menuIcon.addEventListener("click", function() {
     mobileNav.classList.remove('hidden');
     menuIcon.classList.add('fa-sr-only');
@@ -45,3 +44,4 @@ handleResponsiveNav();
 
 // Run whenever window is resized
 window.addEventListener('resize', handleResponsiveNav);
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +7,21 @@
     <script src="https://kit.fontawesome.com/2a0b4f88de.js" crossorigin="anonymous"></script>
     <title>Home</title>
 </head>
-<body class="font-sans">
+<body class="font-sans dark:bg-gray-800">
     <!-- Empty header that will be filled by headerLoader.js -->
     <header></header>
 
     <section class="container mx-auto">
         <div class="flex flex-col items-center tracking-tighter text-[75px] font-bold mt-24 leading-none">
-            <p class="self-center">Stay Focused While</p>
-            <p>Studying Online</p>
+            <p class="self-center dark:text-white">Stay Focused While</p>
+            <p class="dark:text-white">Studying Online</p>
         </div>
-        <div class="flex flex-col items-center tracking-tight text-[20px] font-normal mt-10 leading-tight text-gray-500">
-            <p class="self-center">TarkizZ helps you stay on track with task management and focus</p>
+        <div class="flex flex-col items-center tracking-tight text-[20px] font-normal mt-10 leading-tight text-gray-500 dark:text-gray-300">
+            <p class="self-center ">TarkizZ helps you stay on track with task management and focus</p>
             <p>mode. Boost you productivity and acheive your study goals</p>
         </div>
         <div class="flex flex-col items-center tracking-tight text-[17px] font-normal mt-10 leading-tight text-gray-500">
-            <a href="#" class="bg-black text-stone-50 rounded-lg px-10 py-4 -mt-2 hover:bg-gray-800 font-semibold tracking-tight active:text-[15px]">Get Started</a>
+            <a href="#" class="bg-black text-stone-50 rounded-lg px-10 py-4 -mt-2 hover:bg-gray-800 font-semibold tracking-tight active:text-[15px] dark:text-black dark:bg-teal-300">Get Started</a>
         </div>
         <div class="grid place-items-center mt-10">
             <div class="w-full max-w-[800px] h-[400px] bg-gray-200 rounded-lg shadow-2xl flex items-center justify-center">
@@ -32,29 +32,29 @@
     
     <section class="container mx-auto px-4 py-24 space-y-8">
         <div class="flex justify-center tracking-tight text-[17px] font-normal mt-40 text-gray-500">
-            <p class="font-bold text-black text-[60px] tracking-tighter">Features that Help You Focus</p>
+            <p class="font-bold text-black text-[60px] tracking-tighter dark:text-white">Features that Help You Focus</p>
         </div>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-            <div class="flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg">
-                <i class="fa-solid fa-list-check text-[45px] mb-4"></i>
-                <p class="text-2xl font-semibold mb-2">Task Manager</p>
-                <p class="text-gray-500 text-center text-lg">Add, edit, and track your tasks. Stay organized and never miss a deadline</p>
+            <div class="flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg dark:bg-black">
+                <i class="fa-solid fa-list-check text-[45px] mb-4 dark:text-white"></i>
+                <p class="text-2xl font-semibold mb-2 dark:text-white">Task Manager</p>
+                <p class="text-gray-500 text-center text-lg dark:text-white">Add, edit, and track your tasks. Stay organized and never miss a deadline</p>
             </div>
-            <div class="flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg">
-                <i class="fa-solid fa-bullseye text-[45px] mb-4"></i>
-                <p class="text-2xl font-semibold mb-2">Focus Mode</p>
-                <p class="text-gray-500 text-center text-lg">Stay focused on your work without distractions.<br>Block notifications and stay in the zone.</p>
+            <div class="flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg dark:bg-black">
+                <i class="fa-solid fa-bullseye text-[45px] mb-4 dark:text-white"></i>
+                <p class="text-2xl font-semibold mb-2 dark:text-white">Focus Mode</p>
+                <p class="text-gray-500 text-center text-lg dark:text-white">Stay focused on your work without distractions.<br>Block notifications and stay in the zone.</p>
             </div>
-            <div class="flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg">
-                <i class="fa-solid fa-clock text-[45px] mb-4"></i>
-                <p class="text-2xl font-semibold mb-2">Prograss Tracking</p>
-                <p class="text-gray-500 text-center text-lg">See how much you've accomplished. Track your <br> study time and productivity</p>
+            <div class="flex flex-col items-center space-y-4 p-6 bg-gray-100 rounded-lg dark:bg-black">
+                <i class="fa-solid fa-clock text-[45px] mb-4 dark:text-white"></i>
+                <p class="text-2xl font-semibold mb-2 dark:text-white">Prograss Tracking</p>
+                <p class="text-gray-500 text-center text-lg dark:text-white">See how much you've accomplished. Track your <br> study time and productivity</p>
             </div>
         </div>
     </section>
-    <section class="grid grid-rows-1 mx-auto text-center bg-gray-100">
+    <section class="grid grid-rows-1 mx-auto text-center bg-gray-100 dark:bg-gray-300">
         <div class="p-20 space-y-7">
-            <h2 class="font-bold text-[60px] tracking-tighter">What Our users Say</h2>
+            <h2 class="font-bold text-[60px] tracking-tighter dark:text-white">What Our users Say</h2>
         
             <div class="space-y-7" id="fisrtReview">
                 <div>
@@ -105,5 +105,6 @@
     <script src="../scripts/caroussel.js"></script>
     <script src="../scripts/headerLoader.js"></script>
     <script src="../scripts/loadFooter.js"></script>
+    <script src="../scripts/darkMode.js"></script>
 </body>
 </html>
